@@ -1,0 +1,32 @@
+#sideMenu {
+    background-color: #f3f2f2;
+    width: 250px;
+    min-height: 100vh;
+    border-right: 1px solid #b2b2b2;
+}
+#sideMenu div {
+    position: fixed;
+    left: 0;
+    width: 250px;
+    background-color: #ffffff;
+}
+
+#top-menu {
+    top:0;
+}
+
+#bottom-menu {
+    bottom: 0;
+}
+
+#top-menu  a:last-child {
+    border-bottom: 1px solid #b2b2b2;
+}
+a:first-child {
+    border-top:none;
+}
+
+#bottom-menu a:first-child {
+
+    border-top: 1px solid #b2b2b2;
+}

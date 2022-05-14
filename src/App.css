@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+#mainContent {
+  flex-grow: 5;
+}
+
+table {
+  font-family: sans-serif;
+}
+th, td {
+  padding:.25em .5em;
+  text-align:left;
+}
+td {
+  background-color:#eee;
+}
+th {
+  background-color:#009;
+  color:#fff;
+}

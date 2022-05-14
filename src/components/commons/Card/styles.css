@@ -1,0 +1,7 @@
+.card {
+    min-width: 100vm;
+    background-color: #FFFFFF;
+    border: 1px solid #b2b2b2;
+    border-radius: 10px;
+    margin: 7px 0px;
+}
